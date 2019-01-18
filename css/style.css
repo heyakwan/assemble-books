@@ -1,0 +1,54 @@
+/*
+	Assemble Books Stylesheet
+	Version: 1.0.0;
+	Author: Aydin Kwan
+*/
+
+/*** GENERAL STYLES ***/
+
+a {
+	color: #acacac;
+}
+
+ul {
+	list-style-type:none;
+	padding: 0;
+	margin: 0;
+}
+
+/*** HEADER STYLES ***/
+
+header {
+	background-color:#fafafa;
+}
+
+header h1 {
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+footer {
+	background-color:#ededed;
+}
+
+/*** BOOKSHELF STYLES ***/
+
+.volumeInfo {
+	margin: auto;
+	width: 128px;
+	font-size: .8rem;
+}
+
+.volumeInfo .bookCover {
+	height: 160px;
+}
+
+.volumeInfo .bookCover img {
+	width: auto;
+	max-height: 160px;
+}
+
+button.btn {
+	display: block;
+	margin: 1.5rem auto;
+}
